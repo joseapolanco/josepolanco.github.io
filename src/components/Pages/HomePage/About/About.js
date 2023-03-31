@@ -5,10 +5,10 @@ export default function About() {
   const [index, setIndex] = useState(0);
 
   const images = [
-    "/images/anime.jpg",
-    "/images/gaming.avif",
-    "/images/nyg.png",
-    "/images/wrx.png",
+    "personal-site/images/anime.jpg",
+    "personal-siteimages/gaming.avif",
+    "personal-site/images/nyg.png",
+    "personal-site/images/wrx.png",
   ];
 
   // function to change the image index

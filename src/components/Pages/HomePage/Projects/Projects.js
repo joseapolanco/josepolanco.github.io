@@ -9,14 +9,14 @@ export default function Projects() {
   const projects = [
     {
       title: "Campground",
-      imageUrl: "/images/campground.png",
+      imageUrl: "personal-site/images/campground.png",
       description:
         "As a front-end developer for a campground website, I enabled customers to easily manage their reservations and profile information through a user-friendly interface that included reservation editing, payment processing, and notifications. Admin controls were also implemented for employees to view reservations, send payment reminders, and make edits as necessary. Throughout the development process, I collaborated closely with the project team to gather requirements, refine design concepts, and incorporate feedback.",
       demo: "",
     },
     {
       title: "Passhub",
-      imageUrl: "/images/passhub.png",
+      imageUrl: "personal-site/images/passhub.png",
       description:
         "Developed a mobile app that simplifies managing online accounts. With a friendly interface, users can easily create an account, save their email, username, and password, and access them later. The app also includes a password generator and autofill feature, making logging into websites a breeze.",
       demo: "https://appetize.io/app/4fvrkogse3j5cnxie7tcclbugq?device=galaxytabs7&osVersion=11.0&scale=75&deviceColor=black",
