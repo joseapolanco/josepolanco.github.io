@@ -12,7 +12,7 @@ export default function Intro() {
         </p>
       </div>
       <div className="intro__image">
-        <img src="personal-site/images/cartoon.png" alt="" />
+        <img src="/personal-site/images/cartoon.png" alt="" />
       </div>
     </React.Fragment>
   );
