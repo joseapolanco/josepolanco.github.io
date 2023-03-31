@@ -4,7 +4,12 @@ import React, { useState, useEffect } from "react";
 export default function About() {
   const [index, setIndex] = useState(0);
 
-  const images = ["anime.jpg", "gaming.avif", "nyg.png", "wrx.png"];
+  const images = [
+    "/images/anime.jpg",
+    "/images/gaming.avif",
+    "/images/nyg.png",
+    "/images/wrx.png",
+  ];
 
   // function to change the image index
   const changeImage = () => {

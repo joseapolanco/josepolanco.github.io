@@ -56,7 +56,7 @@ function HomePage() {
   const handleIntersect = (entries) => {
     entries.forEach((entry) => {
       if (entry.isIntersecting) {
-        console.log(`Section ${entry.target.id} is visible`);
+        // console.log(`Section ${entry.target.id} is visible`);
         if (entry.target.id === "about_section") {
           setAboutVisible(true);
         } else if (entry.target.id === "skills_section") {
