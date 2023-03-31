@@ -1,0 +1,79 @@
+.loading-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  color: white;
+  font-size: 3.5rem;
+  letter-spacing: 0.15rem;
+  align-items: center;
+  justify-content: center;
+}
+
+span[class^="dot-"] {
+  opacity: 0;
+}
+.dot-one {
+  animation: dot-one 2s infinite linear;
+}
+.dot-two {
+  animation: dot-two 2s infinite linear;
+}
+.dot-three {
+  animation: dot-three 2s infinite linear;
+}
+@keyframes dot-one {
+  0% {
+    opacity: 0;
+  }
+  15% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes dot-two {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes dot-three {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 450px) {
+  .loading-container {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 340px) {
+  .loading-container {
+    font-size: 2.5rem;
+  }
+}

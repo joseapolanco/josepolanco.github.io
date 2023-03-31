@@ -1,0 +1,86 @@
+.experience__title {
+  width: 100%;
+  /* border: blue solid 1px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.experience__title p {
+  color: white;
+  font-size: 4rem;
+  border-bottom: solid #116ac0 2px;
+  width: fit-content;
+  align-self: start;
+  margin: 1rem;
+  padding-bottom: 0.5rem;
+}
+
+.experience__body {
+  display: flex;
+  flex: 9;
+  flex-direction: row;
+  /* border: blue solid 1px; */
+  gap: 3rem;
+  padding: 3rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.company__name,
+.company__work__info {
+  height: 75%;
+  width: fit-content;
+  /* border: blue 1px solid; */
+}
+
+.company__name {
+  color: white;
+  font-size: 3rem;
+  display: flex;
+  align-items: center;
+  padding-left: 1rem;
+  padding-right: 7rem;
+  border-left: solid #116ac0 2px;
+}
+
+.company__work__info {
+  width: 70%;
+}
+
+.company__position {
+  font-size: 2.5rem;
+  color: white;
+}
+
+.company__position span {
+  padding-right: 1rem;
+}
+
+.company__position a {
+  text-decoration: none;
+  color: #116ac0;
+  padding-right: 1rem;
+}
+
+.company__tenure {
+  color: white;
+  font-size: 1.75rem;
+}
+
+.company__work__desc {
+  color: white;
+  font-size: 1.35rem;
+  /* border: blue 1px solid; */
+}
+
+.company__work__desc li {
+  margin-bottom: 0.5rem;
+  /* list-style-image: url("../../../../../public/ListIcon.png"); */
+  list-style-type: circle;
+  /* border: red solid 1px; */
+}
+
+.company__work__desc ul {
+  /* border: green solid 1px; */
+  padding: 0;
+}

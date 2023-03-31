@@ -1,0 +1,23 @@
+.new__skill {
+  height: fit-content;
+  width: 200px;
+  padding: 1.5rem;
+  /* color: white; */
+  font-size: 2rem;
+  /* border: solid green 2px; */
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgba(0, 0, 0, 0.85);
+  border-radius: 1rem;
+}
+
+.new__skill svg {
+  color: #116ac0;
+  /* font-size: rem; */
+}
+
+.new__skill span {
+  color: white;
+  margin: 0;
+  padding: 0;
+}

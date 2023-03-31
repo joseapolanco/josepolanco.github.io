@@ -1,0 +1,51 @@
+.footer__container {
+  /* border: solid red 1px; */
+  height: 100px;
+  width: 100%;
+  position: relative;
+}
+
+.footer__icons {
+  /* border: solid blue 1px; */
+  height: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer__icons a {
+  height: auto;
+  width: auto;
+}
+
+.footer__line {
+  border-top: solid white 2px;
+  width: 45%;
+  position: absolute;
+}
+
+.left__line {
+  left: 0;
+}
+
+.right__line {
+  right: 0;
+}
+
+.footer__icons svg {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.linkedIn {
+  margin-right: 3rem;
+}
+
+.footer__text {
+  color: white;
+  font-size: 1.25rem;
+  height: 50%;
+  width: 100%;
+  text-align: center;
+  letter-spacing: 0.2rem;
+}

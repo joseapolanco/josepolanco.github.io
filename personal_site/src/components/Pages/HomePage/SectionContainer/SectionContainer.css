@@ -1,0 +1,38 @@
+.section__background {
+  height: 40rem !important;
+  width: 90%;
+  /* margin-top: 4rem; */
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  background-color: #c0c0c008;
+  /* border: yellow solid 2px; */
+}
+
+.section__background div {
+  /* border: red solid 2px; */
+}
+
+.intro__container {
+  display: flex;
+  flex-direction: row;
+}
+
+.about__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.skills__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.experience__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.projects__container {
+  display: flex;
+  flex-direction: column;
+}

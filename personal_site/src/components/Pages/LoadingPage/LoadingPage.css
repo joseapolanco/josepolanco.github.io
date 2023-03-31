@@ -1,0 +1,14 @@
+.loading_page {
+  position: absolute;
+  height: inherit;
+  width: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* .hide {
+  opacity: 0;
+  animation: opacity 3s ease-out;
+} */

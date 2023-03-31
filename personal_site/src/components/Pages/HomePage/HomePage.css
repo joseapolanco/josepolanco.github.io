@@ -1,0 +1,24 @@
+.wrapper {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4rem;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.hidden {
+  opacity: 0;
+  transform: translateX(-150%);
+  /* transition: transform 1s ease; */
+}
+
+.visible {
+  opacity: 1;
+  transform: translateX(0);
+  transition: transform 1s ease, opacity 1s ease;
+}

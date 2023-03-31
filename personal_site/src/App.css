@@ -1,0 +1,19 @@
+.app {
+  height: 100vh;
+  width: 100vw;
+  /* border: solid blue 5px; */
+  overflow: hidden !important;
+  position: relative;
+  /* padding: 0;
+  margin: 0; */
+}
+
+.app .div-anim {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  will-change: transform, opacity;
+}
