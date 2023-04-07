@@ -8,7 +8,6 @@ import Projects from "./Projects/Projects";
 import SectionContainer from "./SectionContainer/SectionContainer";
 import Skills from "./Skills/Skills";
 import { useState, useEffect, useRef } from "react";
-import debounce from "lodash.debounce";
 
 const sections = [
   {
@@ -54,8 +53,7 @@ function HomePage() {
     setIsSticky(myDivRef.current.scrollTop > 5);
   };
 
-  const handleIntersect = debounce((entries) => {
-    console.log("DEBOUNCED");
+  const handleIntersect = (entries) => {
     entries.forEach((entry) => {
       if (entry.isIntersecting) {
         // console.log(`Section ${entry.target.id} is visible`);
@@ -84,7 +82,7 @@ function HomePage() {
         }
       }
     });
-  }, 0);
+  };
 
   useEffect(() => {
     const myDiv = myDivRef.current;
@@ -97,6 +95,7 @@ function HomePage() {
       root: myDivRef.current,
       rootMargin: "0px 0px 0px 150%", // top, right, bottom, left,
       threshold: 0.2,
+      once: true,
     };
 
     const observer = new IntersectionObserver(handleIntersect, options);
