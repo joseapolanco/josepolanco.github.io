@@ -84,7 +84,7 @@ function HomePage() {
         }
       }
     });
-  }, 500);
+  }, 150);
 
   useEffect(() => {
     const myDiv = myDivRef.current;
