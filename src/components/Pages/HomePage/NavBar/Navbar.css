@@ -9,6 +9,7 @@
   width: 100%;
   /* border: solid blue 1px; */
   max-height: fit-content;
+  overflow: visible;
 }
 
 .hamburger__menu {
