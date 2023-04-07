@@ -3,6 +3,10 @@
   src: url("/public/Iceland/Iceland.ttf");
 }
 
+html {
+  font-size: 16px;
+}
+
 html,
 html,
 body {
