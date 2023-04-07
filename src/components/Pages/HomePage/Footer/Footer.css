@@ -49,3 +49,19 @@
   text-align: center;
   letter-spacing: 0.2rem;
 }
+
+@media (max-width: 1265px) {
+  .footer__line {
+    width: 35%;
+  }
+}
+
+@media (max-width: 430px) {
+  .footer__line {
+    width: 25%;
+  }
+
+  .footer__text {
+    font-size: 1rem;
+  }
+}

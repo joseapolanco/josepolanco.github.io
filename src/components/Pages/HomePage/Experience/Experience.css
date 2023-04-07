@@ -84,3 +84,76 @@
   /* border: green solid 1px; */
   padding: 0;
 }
+
+@media (max-width: 1026px) {
+  .experience__body {
+    flex-direction: column;
+    padding-top: 1rem;
+  }
+
+  .company__work__info {
+    width: 100%;
+  }
+
+  .company__name {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    border-right: solid #116ac0 2px;
+  }
+
+  .company__name span {
+    font-size: 2.5rem;
+  }
+
+  .company__position {
+    font-size: 2rem;
+  }
+  .company__tenure {
+    font-size: 1.5rem;
+  }
+
+  .company__work__info li {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 565px) {
+  .company__name span {
+    font-size: 2rem;
+  }
+
+  .company__position {
+    font-size: 1.75rem;
+  }
+  .company__tenure {
+    font-size: 1.25rem;
+  }
+
+  .company__work__info li {
+    font-size: 1.15rem;
+  }
+}
+
+@media (max-width: 474px) {
+  .experience__body {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+@media (max-width: 438px) {
+  .company__position {
+    font-size: 1.5rem;
+  }
+  .company__tenure {
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 391px) {
+  .company__position {
+    font-size: 1.45rem;
+  }
+}

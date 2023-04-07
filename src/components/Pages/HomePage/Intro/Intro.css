@@ -18,13 +18,15 @@
   align-items: center;
   justify-content: center;
   gap: 1rem;
-  /* border: solid red 2px; */
-  margin-left: 5em;
+  /* border: solid blue 2px; */
+  /* margin-left: 5em; */
+  padding-left: 5rem;
 }
 
 .intro__text p {
   margin: 0;
   /* border: solid red 2px; */
+  padding: 0;
 }
 
 .intro__text p .white {
@@ -49,10 +51,125 @@
   justify-content: center;
   max-height: 100%;
   flex: 1 1 70%;
-  /* border: solid red 2px; */
+  /* border: solid green 2px; */
 }
 
 .intro__image img {
   /* border: solid red 2px; */
-  transform: scale(1.5);
+  /* transform: scale(1.5); */
+  max-height: 100%;
+  min-width: 80%;
+}
+
+@media (max-width: 1640px) {
+  .name {
+    color: #2865d8;
+  }
+
+  .name {
+    font-size: 3.9rem;
+  }
+
+  .desc {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 1381px) {
+  .name {
+    font-size: 3.5rem;
+  }
+
+  .desc {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 1181px) {
+  .name {
+    font-size: 3rem;
+  }
+
+  .desc {
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 1026px) {
+  .name {
+    font-size: 2.5rem;
+  }
+
+  .desc {
+    font-size: 1.2rem;
+  }
+
+  .intro__image img {
+    max-width: 10%;
+  }
+}
+
+@media (max-width: 933px) {
+  .name {
+    font-size: 2.25rem;
+  }
+
+  .desc {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 778px) {
+  .name {
+    font-size: 2rem;
+  }
+
+  .desc {
+    font-size: 0.8rem;
+  }
+}
+
+/*Mobile layout */
+@media (max-width: 702px) {
+  .intro__text {
+    flex: 1 1 30;
+    /* border: solid red 1px; */
+    padding: 0;
+    margin: 0;
+  }
+
+  .intro__image {
+    flex: 1 1 70;
+    /* border: solid red 1px; */
+    padding: 0;
+    margin: 0;
+  }
+
+  .intro__image img {
+    min-width: 70%;
+    /* border: blue solid 1px; */
+  }
+
+  .desc {
+    font-size: 1rem;
+  }
+
+  .intro__text {
+    padding: 0 5px 0 5px;
+  }
+}
+
+@media (max-width: 595px) {
+  .intro__image img {
+    min-width: 90%;
+  }
+}
+
+@media (max-width: 451px) {
+  .intro__image img {
+    min-width: 100%;
+  }
+
+  .intro__text {
+  }
 }

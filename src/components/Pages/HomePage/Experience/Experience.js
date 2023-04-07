@@ -4,7 +4,7 @@ import React from "react";
 export default function Experience() {
   return (
     <React.Fragment>
-      <div className="experience__title">
+      <div className="experience__title section__title">
         <p>Work Experience</p>
       </div>
       <div className="experience__body">

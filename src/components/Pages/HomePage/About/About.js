@@ -26,7 +26,7 @@ export default function About() {
 
   return (
     <React.Fragment>
-      <div className="about__title">
+      <div className="about__title section__title">
         <p>About Me</p>
       </div>
       <div className="about__body">

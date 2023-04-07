@@ -11,7 +11,7 @@ export default function Projects() {
       title: "Campground",
       imageUrl: "/personal-site/images/campground.png",
       description:
-        "As a front-end developer for a campground website, I enabled customers to easily manage their reservations and profile information through a user-friendly interface that included reservation editing, payment processing, and notifications. Admin controls were also implemented for employees to view reservations, send payment reminders, and make edits as necessary. Throughout the development process, I collaborated closely with the project team to gather requirements, refine design concepts, and incorporate feedback.",
+        "Campground website that enabled customers to easily manage their reservations and profile information through a user-friendly interface that included reservation editing, payment processing, and notifications. Also implemented admin controls for employees to view reservations, send payment reminders, and make edits as necessary. ",
       demo: "",
     },
     {
@@ -60,7 +60,7 @@ export default function Projects() {
 
   return (
     <React.Fragment>
-      <div className="projects__title">
+      <div className="projects__title section__title">
         <p>Personal Projects</p>
       </div>
       <div className="projects__body">

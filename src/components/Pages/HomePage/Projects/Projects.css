@@ -65,3 +65,29 @@
 .right___arrow {
   margin-left: 3rem;
 }
+
+@media (max-width: 1026px) {
+  .projects__body {
+    margin-top: -1rem;
+    z-index: -1;
+  }
+
+  .newproject__slideshow {
+    width: 65%;
+    height: 90%;
+  }
+}
+
+@media (max-width: 666px) {
+  .newproject__slideshow {
+    width: 75%;
+  }
+
+  .left___arrow {
+    margin-right: 0;
+  }
+
+  .right___arrow {
+    margin-left: 0;
+  }
+}

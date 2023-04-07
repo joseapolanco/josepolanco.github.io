@@ -9,15 +9,71 @@
   justify-content: space-evenly;
   background-color: rgba(0, 0, 0, 0.85);
   border-radius: 1rem;
+  align-items: center;
 }
 
 .new__skill svg {
   color: #116ac0;
-  /* font-size: rem; */
 }
 
 .new__skill span {
   color: white;
   margin: 0;
   padding: 0;
+}
+
+@media (max-width: 1300px) {
+  .new__skill {
+    width: 150px;
+  }
+
+  .new__skill:nth-child(3) span {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 1026px) {
+  .new__skill {
+    width: 100px;
+  }
+  .new__skill span {
+    font-size: 1.3rem;
+  }
+
+  .new__skill:nth-child(3) span {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 795px) {
+  .new__skill {
+    width: 175px;
+  }
+  .new__skill span {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 632px) {
+  .new__skill {
+    width: 150px;
+  }
+  .new__skill span {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 565px) {
+  .new__skill {
+    width: 135px;
+  }
+  .new__skill span {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 494px) {
+  .new__skill {
+    width: 100px;
+  }
 }

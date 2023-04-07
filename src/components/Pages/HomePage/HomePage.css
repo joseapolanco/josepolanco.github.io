@@ -22,3 +22,22 @@
   transform: translateX(0);
   transition: transform 1s ease, opacity 1s ease;
 }
+
+@media (max-width: 1026px) {
+  .section__title p {
+    font-size: 2.75rem;
+  }
+}
+
+/* Mobile layout */
+@media (max-width: 702px) {
+  .section__title p {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 565px) {
+  .section__title p {
+    font-size: 2rem;
+  }
+}

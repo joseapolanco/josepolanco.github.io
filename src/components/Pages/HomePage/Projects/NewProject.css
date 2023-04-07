@@ -73,3 +73,16 @@
   letter-spacing: 1px;
   text-align: center;
 }
+
+@media (max-width: 1026px) {
+  .project__desc p {
+    font-size: 1.25rem;
+    margin-top: 0.5rem;
+  }
+}
+
+@media (max-width: 427px) {
+  .project__desc p {
+    font-size: 1rem;
+  }
+}

@@ -9,7 +9,7 @@ import NewSkill from "./NewSkill";
 export default function Skills() {
   return (
     <React.Fragment>
-      <div className="skills__title">
+      <div className="skills__title section__title">
         <p>Skills</p>
       </div>
       <div className="skills__body">
