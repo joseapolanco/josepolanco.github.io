@@ -6,8 +6,6 @@ export default function Navbar(props) {
   const [isHamburgerMenu, setIsHamburgerMenu] = useState(false);
   const windowWidth = window.innerWidth;
 
-  console.log(windowWidth);
-
   const handleClick = (event, id) => {
     event.preventDefault();
     const targetElement = document.getElementById(id);
